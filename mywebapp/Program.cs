@@ -25,5 +25,6 @@ app.MapGet("/", async context =>
     await context.Response.SendFileAsync(filePath);
 });
 
-// Ensure that the app runs
+
 app.Run();
+// this is some comment
